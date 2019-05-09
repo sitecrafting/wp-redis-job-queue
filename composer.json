@@ -1,0 +1,23 @@
+{
+    "name": "sitecrafting/wp-redis-job-queue",
+    "description": "A simple Redis-based job queue for WordPress",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "license": "MIT",
+    "autoload": {
+
+	        "psr-4": {
+
+	            "WpRedisJobQueue\\": "src/WpRedisJobQueue/"
+
+	        }
+
+    },
+    "authors": [
+        {
+            "name": "Coby Tamayo",
+            "email": "acobster@gmail.com"
+        }
+    ]
+}
