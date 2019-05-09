@@ -10,6 +10,8 @@ Install and activate this repo as a WP plugin. In a terminal, run the following:
 wp queue process --delay=100
 ```
 
+Note: You don't actually need the `--delay=100` option. That's just to keep your fan from whirring too much when running this locally. :) Run `wp queue process --help` for more info.
+
 Elsewhere, in your code, push a job onto it. A job can be any serializeable callable.
 
 ```php
